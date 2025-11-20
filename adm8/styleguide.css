@@ -1,0 +1,9 @@
+:root {
+  --title-page-font-family: "Inter", Helvetica;
+  --title-page-font-weight: 700;
+  --title-page-font-size: 48px;
+  --title-page-letter-spacing: -0.96px;
+  --title-page-line-height: 120.00000476837158%;
+  --title-page-font-style: normal;
+  --variable-collection-spacing-m: 48px;
+}
