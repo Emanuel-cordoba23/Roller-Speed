@@ -2,8 +2,8 @@
   background-color: #ffffff;
   overflow: hidden;
   width: 100%;
-min-width: 320px;   /* tamaño mínimo normal para móviles */
-min-height: 100vh;  /* ocupa solo el alto visible */
+  min-width: 1440px;
+  min-height: 1788px;
 
   position: relative;
 }
