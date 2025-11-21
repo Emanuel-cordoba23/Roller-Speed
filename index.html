@@ -3,62 +3,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menú Principal</title>
+    <title>Menú Principal - RollerSpeed</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- HEADER -->
+    <header class="navigation">
+        <div class="header-content">
+            <h1 class="text-wrapper">RollerSpeed</h1>
+        </div>
+    </header>
 
-    <div class="sign-up">
+    <!-- MAIN CONTENT -->
+    <main>
+        <div class="menu-header">
+            <h2 class="menu-title">Panel de Control</h2>
+            <p class="menu-subtitle">Selecciona el módulo al que deseas acceder</p>
+        </div>
 
-        <header class="navigation">
-            <h1 class="text-wrapper">Menú Principal</h1>
-        </header>
+        <div class="menu-grid">
+            <button class="menu-card" onclick="location.href='adm8/index.html'">
+                <div class="card-icon">🔧</div>
+                <div class="card-title">Admin</div>
+                <div class="card-description">Panel de administración del sistema</div>
+            </button>
 
-        <main class="menu-container">
+            <button class="menu-card" onclick="location.href='coach/index.html'">
+                <div class="card-icon">👨‍🏫</div>
+                <div class="card-title">Coach</div>
+                <div class="card-description">Gestión de entrenadores</div>
+            </button>
 
-            <h2 class="menu-title">Selecciona una página</h2>
+            <button class="menu-card" onclick="location.href='estudiantes-ree/index.html'">
+                <div class="card-icon">🎓</div>
+                <div class="card-title">Estudiantes</div>
+                <div class="card-description">Portal de estudiantes</div>
+            </button>
 
-            <div class="menu-box">
+            <button class="menu-card" onclick="location.href='homee/index.html'">
+                <div class="card-icon">🏠</div>
+                <div class="card-title">Inicio</div>
+                <div class="card-description">Página principal</div>
+            </button>
 
-                <button class="button" onclick="location.href='adm8/index.html'">
-                    <span class="div">Admin</span>
-                </button>
+            <button class="menu-card" onclick="location.href='instructor-9/index.html'">
+                <div class="card-icon">📚</div>
+                <div class="card-title">Instructor</div>
+                <div class="card-description">Panel de instructores</div>
+            </button>
 
-                <button class="button" onclick="location.href='coach/index.html'">
-                    <span class="div">Coach</span>
-                </button>
+            <button class="menu-card" onclick="location.href='log-in-6/index.html'">
+                <div class="card-icon">🔐</div>
+                <div class="card-title">Log In</div>
+                <div class="card-description">Iniciar sesión</div>
+            </button>
 
-                <button class="button" onclick="location.href='estudiantes-ree/index.html'">
-                    <span class="div">Estudiantes</span>
-                </button>
+            <button class="menu-card" onclick="location.href='pagina-3/index.html'">
+                <div class="card-icon">📄</div>
+                <div class="card-title">Página 3</div>
+                <div class="card-description">Contenido adicional</div>
+            </button>
 
-                <button class="button" onclick="location.href='homee/index.html'">
-                    <span class="div">Inicio</span>
-                </button>
+            <button class="menu-card" onclick="location.href='paneles4/index.html'">
+                <div class="card-icon">📊</div>
+                <div class="card-title">Paneles</div>
+                <div class="card-description">Tableros de control</div>
+            </button>
 
-                <button class="button" onclick="location.href='instructor-9/index.html'">
-                    <span class="div">Instructor</span>
-                </button>
+            <button class="menu-card" onclick="location.href='sign-up5/index.html'">
+                <div class="card-icon">✍️</div>
+                <div class="card-title">Sign Up</div>
+                <div class="card-description">Registrarse</div>
+            </button>
+        </div>
+    </main>
 
-                <button class="button" onclick="location.href='log-in-6/index.html'">
-                    <span class="div">Log In</span>
-                </button>
-
-                <button class="button" onclick="location.href='pagina-3/index.html'">
-                    <span class="div">Página 3</span>
-                </button>
-
-                <button class="button" onclick="location.href='paneles4/index.html'">
-                    <span class="div">Paneles</span>
-                </button>
-
-                <button class="button" onclick="location.href='sign-up5/index.html'">
-                    <span class="div">Sign Up</span>
-                </button>
-
+    <!-- FOOTER -->
+    <footer class="navigation-footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>RollerSpeed</h3>
+                <p>Plataforma educativa de patinaje de velocidad</p>
             </div>
-
-        </main>
+            <div class="footer-section">
+                <h3>Enlaces</h3>
+                <a href="#">Acerca de</a>
+                <a href="#">Servicios</a>
+                <a href="#">Contacto</a>
+            </div>
+            <div class="footer-section">
+                <h3>Soporte</h3>
+                <a href="#">Ayuda</a>
+                <a href="#">Documentación</a>
+                <a href="#">FAQ</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            © 2025 RollerSpeed. Todos los derechos reservados.
+        </div>
+    </footer>
+</body>
+</html>
 
         <footer class="navigation-footer"></footer>
     </div>
